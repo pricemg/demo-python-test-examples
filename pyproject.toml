@@ -1,0 +1,49 @@
+[tool.poetry]
+name = "testing-examples"
+version = "0.1.0"
+description = "A collection of examples for testing python code using pytest."
+authors = ["Matthew Price <matthew.g.price@ons.gov.uk>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "examples"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+coverage = {extras = ["toml"], version = "^7.1.0"}
+pytest = "^7.2.1"
+pytest-cov = "^4.0.0"
+pytest-lazy-fixture = "^0.6.3"
+pytest-mock = "^3.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.pytest.ini_options]
+xfail_strict = true
+
+
+[tool.coverage.run]
+branch = true
+source = ["cprices_utils"]
+dynamic_context = 'test_function'
+
+[tool.coverage.report]
+fail_under = 0
+exclude_lines = [
+    "pragma: no cover",
+    "if __name__ == .__main__.:",
+    "__version__ = ",
+]
+# List any filepaths here (relative to source defined above) to exclude from
+# the final coverage test report.
+omit = [
+]
+skip_empty = true
+show_missing = true
+
+[tool.coverage.html]
+show_contexts = true
