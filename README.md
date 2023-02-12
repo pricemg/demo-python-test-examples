@@ -29,14 +29,14 @@ Consider in the file  `example/further_examples/example_Nplus1.py` there is a fu
 By structuring your code and tests in this manner it is trivial for anyone looking at the code to be able to locate all the tests for any part of the code with ease.
 
 ### 1. Simple testing of a function
-[code](https://github.com/pricemg/demo-python-testing-examples/blob/main/examples/examples/example_1.py)
-[tests](https://github.com/pricemg/demo-python-testing-examples/blob/main/examples/tests/test_example_1.py)
+[code](https://github.com/pricemg/demo-python-testing-examples/blob/main/examples/example_1.py)
+[tests](https://github.com/pricemg/demo-python-testing-examples/blob/main/tests/test_example_1.py)
 
 A basic example which demonstrates how a test suite for a function should be structured.
 
 ### 2. Simple testing of an expected error
-[code](https://github.com/pricemg/demo-python-testing-examples/blob/main/examples/examples/example_2.py)
-[tests](https://github.com/pricemg/demo-python-testing-examples/blob/main/examples/tests/test_example_2.py)
+[code](https://github.com/pricemg/demo-python-testing-examples/blob/main/examples/example_2.py)
+[tests](https://github.com/pricemg/demo-python-testing-examples/blob/main/tests/test_example_2.py)
 
 This example demonstrates how to test a function which has a known raise statement within it.
 The example contains 2 functions:
