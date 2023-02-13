@@ -24,8 +24,8 @@ class TestComplexCalculation:
 
         assert actual == expected
 
-    @mock.patch('examples.example_5.slow_add')
-    @mock.patch('examples.example_5.slow_multiply')
+    @mock.patch('examples.example_7.slow_add')
+    @mock.patch('examples.example_7.slow_multiply')
     def test_method_mock_1(
         self,
         mock_slow_multiply,
@@ -52,8 +52,8 @@ class TestComplexCalculation:
 
         assert actual == expected
 
-    @mock.patch('examples.example_5.slow_add', side_effect=[6, 14])
-    @mock.patch('examples.example_5.slow_multiply', return_value=12)
+    @mock.patch('examples.example_7.slow_add', side_effect=[6, 14])
+    @mock.patch('examples.example_7.slow_multiply', return_value=12)
     def test_method_mock_2(
         self,
         mock_slow_multiply,
@@ -89,8 +89,8 @@ class TestComplexCalculation:
         a = 2
         b = 3
 
-        mocker.patch('examples.example_5.slow_add', side_effect=[6, 14])
-        mocker.patch('examples.example_5.slow_multiply', return_value=12)
+        mocker.patch('examples.example_7.slow_add', side_effect=[6, 14])
+        mocker.patch('examples.example_7.slow_multiply', return_value=12)
 
         actual = complex_calculation(a, b)
 
