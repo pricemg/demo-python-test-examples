@@ -47,14 +47,22 @@ The example contains 2 functions:
 
 (See also the pytest documentation on [expected exceptions](https://docs.pytest.org/en/7.2.x/how-to/assert.html#assertions-about-expected-exceptions))
 
+### * 5. Usage of `mock` v `pytest-mock` for mocking function calls
+[code](https://github.com/pricemg/demo-python-testing-examples/blob/main/examples/example_5.py)
+[tests](https://github.com/pricemg/demo-python-testing-examples/blob/main/tests/test_example_5.py)
+
+
+
 ### To add
-Positive and negative 
-input data in a fixture used for multiple tests
-parameterize fixture
-parametrize_cases
-mocking single call
-mocking multiple call 
-skipped test
-xfail test
-passing xfail test
-test coverage
+* Positive and negative 
+* input data in a fixture used for multiple tests
+* parameterize fixture
+* parametrize_cases
+
+* mocking single call
+* mocking multiple call 
+* skipped test
+* xfail test
+* passing xfail test
+* test coverage
+* pytest output
