@@ -2,7 +2,7 @@ from unittest import mock
 
 import pytest
 
-from examples.example_7 import(
+from examples.example_5 import(
     complex_calculation,
 )
 

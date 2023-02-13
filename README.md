@@ -47,20 +47,25 @@ The example contains 2 functions:
 
 (See also the pytest documentation on [expected exceptions](https://docs.pytest.org/en/7.2.x/how-to/assert.html#assertions-about-expected-exceptions))
 
-### * 5. Usage of `mock` v `pytest-mock` for mocking function calls
-[code](https://github.com/pricemg/demo-python-testing-examples/blob/main/examples/example_5.py)
-[tests](https://github.com/pricemg/demo-python-testing-examples/blob/main/tests/test_example_5.py)
 
+### 3. Using pytest fixture to reuse data across tests - TO DO
 
+### 4. Using the `parameterize` fixture to combine multiple tests - TO DO
+
+### 5. Using `parametrize_cases` to construct more readable test cases - TO DO
+
+### 6. Combining fixtures and parameterised tests using `pytest-lazy-fixture`
+
+### 7. Usage of `mock` v `pytest-mock` for mocking function calls
+[code](https://github.com/pricemg/demo-python-testing-examples/blob/main/examples/example_7.py)
+[tests](https://github.com/pricemg/demo-python-testing-examples/blob/main/tests/test_example_7.py)
+
+### 8. Mocking a single function call within a function - TODO
+
+### 9. Mocking multiple calls to same function within a function - TODO
 
 ### To add
 * Positive and negative 
-* input data in a fixture used for multiple tests
-* parameterize fixture
-* parametrize_cases
-
-* mocking single call
-* mocking multiple call 
 * skipped test
 * xfail test
 * passing xfail test
