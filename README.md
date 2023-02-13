@@ -54,7 +54,7 @@ The example contains 2 functions:
 
 ### 5. Using `parametrize_cases` to construct more readable test cases - TO DO
 
-### 6. Combining fixtures and parameterised tests using `pytest-lazy-fixture`
+### 6. Combining fixtures and parameterised tests using `pytest-lazy-fixture`
 
 ### 7. Usage of `mock` v `pytest-mock` for mocking function calls
 [code](https://github.com/pricemg/demo-python-testing-examples/blob/main/examples/example_7.py)
