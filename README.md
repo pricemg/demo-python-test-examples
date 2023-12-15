@@ -66,6 +66,16 @@ compared to the built in functionality.
 
 ### 6. Combining fixtures and parameterised tests using `pytest-lazy-fixture`
 
+This example demonstrates how to combine the reusability of fixtures with
+parameterised tests. In particular using built in functionality as well as an
+additional pytest add in helper to simplify the usage.
+
+See [this](https://engineeringfordatascience.com/posts/pytest_fixtures_with_parameterize/)
+for an example of using the built in usage in more detail.
+
+[code](https://github.com/pricemg/demo-python-testing-examples/blob/main/examples/example_6.py)
+[tests](https://github.com/pricemg/demo-python-testing-examples/blob/main/tests/test_example_6.py)
+
 ### 7. Usage of `mock` v `pytest-mock` for mocking function calls
 [code](https://github.com/pricemg/demo-python-testing-examples/blob/main/examples/example_7.py)
 [tests](https://github.com/pricemg/demo-python-testing-examples/blob/main/tests/test_example_7.py)
