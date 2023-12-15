@@ -4,7 +4,6 @@ import pytest
 from _pytest.mark.structures import MarkDecorator
 
 
-
 class Case:
     """Container for a test case, with optional test ID.
 
@@ -21,7 +20,7 @@ class Case:
     >>> Case(label="some test name", foo=10, bar="some value")
     >>> Case(foo=99, bar="some other value")   # no name given
 
-    See Also
+    See also
     --------
     source: https://github.com/ckp95/pytest-parametrize-cases
 

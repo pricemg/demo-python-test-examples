@@ -47,12 +47,22 @@ The example contains 2 functions:
 
 (See also the pytest documentation on [expected exceptions](https://docs.pytest.org/en/7.2.x/how-to/assert.html#assertions-about-expected-exceptions))
 
+### 3. Using `marks` - TO DO
 
-### 3. Using pytest fixture to reuse data across tests - TO DO
+### 4. Using `pytest.fixture` to reuse data across tests - TO DO
 
-### 4. Using the `parameterize` fixture to combine multiple tests - TO DO
+### 5. Builtin `parameterize` v custom `parametrize_cases` to test multiple scenarios
 
-### 5. Using `parametrize_cases` to construct more readable test cases - TO DO
+This example shows how a single function can be tested with more than one set
+of inputs in a succinct DRY manner. The test code demonstrates using
+1. the built in pytest `parametrize` functionality
+2. the use of custom `parametrize_cases` and `Case` code which is kept in `conftest.py`
+
+The benefit of using option 2 is that it provides more readable test cases
+compared to the built in functionality.
+
+[code](https://github.com/pricemg/demo-python-testing-examples/blob/main/examples/example_5.py)
+[tests](https://github.com/pricemg/demo-python-testing-examples/blob/main/tests/test_example_5.py)
 
 ### 6. Combining fixtures and parameterised tests using `pytest-lazy-fixture`
 
