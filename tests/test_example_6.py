@@ -161,3 +161,10 @@ class TestCountCharactersInStrings:
         actual = count_characters_in_strings(input_values)
 
         assert actual == expected
+
+
+class TestRemoveCharactersInString:
+
+    @pytest.mark.skip(reason='No test implemented')
+    def test_expected(self):
+        pass

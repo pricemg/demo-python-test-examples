@@ -2,7 +2,7 @@ from unittest import mock
 
 import pytest
 
-from conftest import Case, parametrize_cases
+from tests.conftest import Case, parametrize_cases
 
 from examples.example_7 import(
     complex_calculation_1,

@@ -7,7 +7,7 @@ from tests.conftest import (
     parametrize_cases,
 )
 
-from examples.example_4 import calculate_datetime_delta
+from examples.example_5 import calculate_datetime_delta
 
 
 class TestCalculateDatetimeDelta:
